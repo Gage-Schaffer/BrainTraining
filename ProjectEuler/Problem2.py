@@ -8,7 +8,9 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 find the sum of the even-valued terms.
 
 """
+import time
 
+start = time.time()
 
 def fibonacci(l1):
     next_number = l1[-2] + l1[-1]
@@ -32,3 +34,5 @@ def summed_even_numbers():
 
 
 print(summed_even_numbers())
+end = time.time()
+print(end - start, " seconds")
