@@ -53,4 +53,3 @@ card_number = input("Enter your card number: ")
 check_validity(card_number)
 
 
-# TODO: Refactor and prettify this code

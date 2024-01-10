@@ -17,5 +17,4 @@ def sieve_of_eratosthenes():
 
 
 
-# TODO: COMPLETE THE PROBLEM
 

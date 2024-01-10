@@ -16,4 +16,3 @@ def sieve(upper_bound):
 
 
 sieve(upper_bound)
-# TODO: Finish this stupid problem
