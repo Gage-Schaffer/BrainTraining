@@ -10,7 +10,7 @@ prime_list = [2,3,5,7]
 i = 8
 
 start = time.time()
-while (len(prime_list) != 10001):
+while len(prime_list) != 10001:
     if i % 2 == 0:
         i += 1
         continue
@@ -21,7 +21,6 @@ while (len(prime_list) != 10001):
             prime_list.append(i)
             break
         x += 1
-
     i += 1
 
 print(next(reversed(prime_list)))

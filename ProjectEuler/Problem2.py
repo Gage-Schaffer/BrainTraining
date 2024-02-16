@@ -10,7 +10,9 @@ find the sum of the even-valued terms.
 """
 import time
 
+
 start = time.time()
+
 
 def fibonacci(l1):
     next_number = l1[-2] + l1[-1]
