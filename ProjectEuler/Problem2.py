@@ -10,7 +10,6 @@ find the sum of the even-valued terms.
 """
 import time
 
-
 start = time.time()
 
 

@@ -6,7 +6,7 @@ Synopsis: What is the sum of the digits that make up 2**1000
 """
 
 # Need to store this number as a string to prevent overflow
-long_number_str = str(2**1000)
+long_number_str = str(2 ** 1000)
 
 
 def sum_digits(number_str):

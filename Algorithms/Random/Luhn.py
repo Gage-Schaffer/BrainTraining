@@ -51,5 +51,3 @@ def check_validity(number_as_str):
 
 card_number = input("Enter your card number: ")
 check_validity(card_number)
-
-

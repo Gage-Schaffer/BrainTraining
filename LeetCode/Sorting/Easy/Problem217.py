@@ -10,7 +10,7 @@ https://leetcode.com/problems/contains-duplicate/description/
 nums = [1, 1, 2, 3, 4, 5]
 
 
-def contains_duplicate(nums: list[int]):
+def contains_duplicate(nums):
     nums_map = {}
     for num in nums:
         if num in nums_map.values():

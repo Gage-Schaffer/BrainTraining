@@ -6,7 +6,6 @@ Synopsis: How many lattice paths are in a 20x20 grid
 """
 import math
 
-
 grid_x = 20
 grid_y = 20
 

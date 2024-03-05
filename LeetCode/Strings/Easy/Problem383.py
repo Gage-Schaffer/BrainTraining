@@ -31,4 +31,3 @@ def can_construct(note: str, source: str) -> bool:
 
 
 print(can_construct(ransom_note, magazine))
-

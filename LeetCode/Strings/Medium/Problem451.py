@@ -20,7 +20,6 @@ def frequency_sort(s: str) -> str:
             continue
         else:
             letters[letter_info[0]] = letter_info[1]
-    print(letters)
 
     v = list(letters.values())
     k = list(letters.keys())

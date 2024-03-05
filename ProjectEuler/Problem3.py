@@ -7,6 +7,7 @@ What is the largest prime factor of the number 600851475143?
 """
 
 import math
+
 x = 600851475143
 
 
@@ -14,7 +15,3 @@ x = 600851475143
 def sieve_of_eratosthenes():
     l1 = [i for i in range(2, math.ceil(math.sqrt(x)))]
     prime_list = []
-
-
-
-

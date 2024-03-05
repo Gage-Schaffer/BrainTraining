@@ -19,18 +19,18 @@ t1 = "paper"
 def is_isomorphic(s: str, t: str) -> bool:
     s_len = len(s)
     t_len = len(t)
-    if s_len != t_len:                                  # Check string length and exit if they do not match
+    if s_len != t_len:  # Check string length and exit if they do not match
         return False
 
     hash = {}
     for letter_idx in range(s_len):
-        if s[letter_idx] in hash.keys():                # If the letter already exists in the hashmap
-            if hash[s[letter_idx]] == t[letter_idx]:    # Check if the currently iterated letter matches...
+        if s[letter_idx] in hash.keys():  # If the letter already exists in the hashmap
+            if hash[s[letter_idx]] == t[letter_idx]:  # Check if the currently iterated letter matches...
                 continue
             else:
-                return False                            # ... and return false if it does not
+                return False  # ... and return false if it does not
         else:
-            hash[s[letter_idx]] = t[letter_idx]         # If the letter does not exist, append it
+            hash[s[letter_idx]] = t[letter_idx]  # If the letter does not exist, append it
 
     return True
 
