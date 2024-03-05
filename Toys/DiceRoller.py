@@ -7,9 +7,10 @@ import random
 
 
 def roll_dice():
-    user_input = input()
+    user_input = input("Enter Dice Roll: ")
     dice, _, sides = user_input.partition("d")
-    if _ is None or sides is None:  # Check Input and return if the usage is wrong
+    print(_)
+    if _ == "" or sides == "":  # Check Input and return if the usage is wrong
         print("Usage: '2d6'")
         return
     results = []
